@@ -1,21 +1,16 @@
 import React from 'react';
-import { createBrowserRouter, RouterProvider} from 'react-router-dom';
-
-import home from './components/Home';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Router from './Router';
+import Nav_Bar from './components/Nav_Bar'
+import MyFooter from './components/Footer';
 function App(){
   return (
-    
       <div>
-        <header>
-          <h1>Encabezado</h1>
-        </header>
-        
-        <footer>
-          <p>Pie de página</p>
-        </footer>
+          <Nav_Bar/>
+        <Router></Router>
+       <MyFooter></MyFooter>
       </div>
-  
   );
 }
 

@@ -12,3 +12,35 @@ code {
     monospace;
 }
 
+/*nav bar*/
+.custom-navbar {
+  background-color: #242424;
+  color: #05f5ad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  position: fixed;
+}
+
+.custom-navbar .nav-link {
+  color: #05f5ad;
+}
+.custom-footer{
+  background-color: #242424;
+}
+.custom-footer span{
+    color: #05f5ad;
+}
+.footer-copyright{
+  background-color: #4e4e4e;
+}
+.custom-slider{
+  height: 80vh;
+}
+
+@media screen and (max-width: 720px) {
+    .custom-slider{
+      height: 50vh;
+    }
+}
