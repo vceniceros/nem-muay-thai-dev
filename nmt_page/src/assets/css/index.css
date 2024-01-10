@@ -6,12 +6,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+html{
+  max-width: 100%;
+  overflow:scroll;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+img{
+  margin: 0;
+  padding: 0;
+}
+/*fuente*/
+@font-face{
+  font-family: 'nectar';
+  src: url('../fonts/disco\ nectar.ttf');
+}
 /*nav bar*/
 .custom-navbar {
   background-color: #242424;
@@ -22,25 +34,39 @@ code {
   padding-top: 10px;
   position: fixed;
 }
-
+.custom-navbar-title{
+  font-family: 'nectar';
+}
 .custom-navbar .nav-link {
   color: #05f5ad;
 }
 .custom-footer{
   background-color: #242424;
 }
+
+/*footer*/
 .custom-footer span{
     color: #05f5ad;
 }
 .footer-copyright{
   background-color: #4e4e4e;
 }
+
+.carousel-custom {
+  max-width: 100%; 
+  overflow: hidden; 
+}
+
 .custom-slider{
+  max-width: 100%;
+  overflow: hidden; 
   height: 80vh;
 }
+
 
 @media screen and (max-width: 720px) {
     .custom-slider{
       height: 50vh;
     }
 }
+

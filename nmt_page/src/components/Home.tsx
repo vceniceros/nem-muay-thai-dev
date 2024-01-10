@@ -1,28 +1,22 @@
 import React from "react";
 import HomeSlider from "./Home-slider";
+import HomeWIM from "./Home-WIM";
+import HomeWINEM from "./Home-WINEM";
+import HomeLocation from "./Home-Location";
+import HomePhotos from "./Home-Photos";
+import HomeContact from "./Home-Contact";
 
-function home(){
-    return(
-        <div>
-            <HomeSlider />
-            <h2>
-                que es el muay thai
-            </h2>
-            <h2>
-                que es nem
-            </h2>
-            <h2>
-                horarios y locacion
-            </h2>
-            <h2>
-                fotitos
-            </h2>
-            <h2>
-                contact us
-            </h2>
-        </div>
-
-    )
+function home() {
+  return (
+    <div>
+      <HomeSlider />
+      | <HomeWIM />
+      <HomeWINEM />
+      <HomeLocation/>
+      <HomePhotos/>
+      <HomeContact/>
+    </div>
+  );
 }
- 
+
 export default home;
