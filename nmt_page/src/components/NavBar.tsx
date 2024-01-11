@@ -24,7 +24,7 @@ function NavBar() {
       <Nav className="mt-3">
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/#lugar_y_horarios">Lugar y horarios</Nav.Link>
-        <Nav.Link href="/contact">contacto</Nav.Link>
+        <Nav.Link href="/contacto">contacto</Nav.Link>
       </Nav>
     </Navbar>
   );

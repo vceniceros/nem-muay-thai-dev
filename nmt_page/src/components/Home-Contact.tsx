@@ -15,7 +15,7 @@ function HomeContact() {
         <Row className="justify-content-center align-items-center text-center">
           <Col>
             <h1 data-aos="fade-down">!No lo penses más, únite a NEEEEEEEEN¡</h1>
-            <Button data-aos="fade-up" variant="success" href="/contact" className="mt-5">
+            <Button data-aos="fade-up" variant="success" href="/contacto" className="mt-5">
               Contáctanos
             </Button>
           </Col>
