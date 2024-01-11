@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Nav } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import logo from "../assets/img/nmt_logo.jpg";
 import igLogo from "../assets/img/instagrama-logo.png";
 

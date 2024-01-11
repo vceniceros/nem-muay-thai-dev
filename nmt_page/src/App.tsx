@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Router from './Router';
-import Nav_Bar from './components/Nav_Bar'
+import NavBar from './components/NavBar'
 import MyFooter from './components/Footer';
 import AOS from 'aos'
 
@@ -13,7 +13,7 @@ function App(){
   })
   return (
       <div className='default'>
-          <Nav_Bar/>
+          <NavBar/>
         <Router></Router>
        <MyFooter></MyFooter>
       </div>

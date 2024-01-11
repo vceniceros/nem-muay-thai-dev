@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import {
   Navbar,
   Nav,
@@ -6,7 +6,7 @@ import {
 } from "react-bootstrap";
 import logo from '../assets/img/nmt_logo.jpg'; 
 
-function Nav_Bar() {
+function NavBar() {
 
   return (
     <Navbar className="custom-navbar border-bottom border-body sticky-top fixed " >
@@ -29,4 +29,4 @@ function Nav_Bar() {
     </Navbar>
   );
 };
-export default Nav_Bar;
+export default NavBar;

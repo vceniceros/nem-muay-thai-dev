@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Carousel } from "react-bootstrap";
-import { Component } from "react";
+import { Carousel } from "react-bootstrap";
 import slide1 from '../assets/img/slide1-1.jpg';
 import slide2 from '../assets/img/slide1-2.jpg';
 
