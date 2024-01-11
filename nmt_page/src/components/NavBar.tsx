@@ -18,7 +18,7 @@ function NavBar() {
           alt=""
           className="me-2"
         />
-        <h1 className="m-0 ms-3 mt-3 thai-title">Nem muay thai</h1>
+        <h1 className="m-0 ms-3 mt-3 thai-title">Nen muay thai</h1>
       </Navbar.Brand>
       
       <Nav className="mt-3">
