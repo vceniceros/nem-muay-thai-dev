@@ -3,7 +3,8 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 function HomeContact() {
   const sectionStyle = {
-    backgroundColor: "#242424",
+    backgroundColor: "#5a5a5a",
+    fontFamily: "thai",
     color: "#05f5ad",
     paddingTop: "100px",
     paddingBottom: "100px",

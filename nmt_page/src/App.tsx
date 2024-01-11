@@ -12,7 +12,7 @@ function App(){
     AOS.init()
   })
   return (
-      <div>
+      <div className='default'>
           <Nav_Bar/>
         <Router></Router>
        <MyFooter></MyFooter>

@@ -10,6 +10,7 @@ html{
   max-width: 100%;
   overflow:scroll;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -19,10 +20,14 @@ img{
   margin: 0;
   padding: 0;
 }
+.default{
+  background-color: #242424;
+  color: #05f5ad;
+}
 /*fuente*/
 @font-face{
-  font-family: 'nectar';
-  src: url('../fonts/disco\ nectar.ttf');
+  font-family: 'thai';
+  src: url('../fonts/THAILAND.TTF');
 }
 /*nav bar*/
 .custom-navbar {
@@ -34,10 +39,12 @@ img{
   padding-top: 10px;
   position: fixed;
 }
-.custom-navbar-title{
-  font-family: 'nectar';
+.thai-title{
+  font-family: 'thai';
+  color: #c62ac9;
 }
 .custom-navbar .nav-link {
+  font-family: 'thai';
   color: #05f5ad;
 }
 .custom-footer{
@@ -70,3 +77,8 @@ img{
     }
 }
 
+/*modificaciones a la tabla de location*/
+.location-table{
+  background-color: #4e4e4e;
+  color: #05f5ad;
+}

@@ -7,7 +7,7 @@ function HomeWIM() {
   return (
     <section id="que_es_muay_thai">
       <div className="fs-2 text-center mb-4 mt-4 border-top border-bottom">
-        <h2 data-aos="fade-up">¿Qué es Muay Thai? (boxeo tailandés)</h2>
+        <h2 data-aos="fade-up" className="thai-title">¿Qué es Muay Thai? (boxeo tailandés)</h2>
       </div>
       <Container fluid className="mt-4">
         <Row>

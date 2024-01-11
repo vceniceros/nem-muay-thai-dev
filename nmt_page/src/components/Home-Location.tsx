@@ -5,7 +5,7 @@ function HomeLocation() {
   return (
     <section id="lugar_y_horarios">
       <div className="fs-2 text-center mb-4 mt-4 border-top border-bottom">
-        <h2 data-aos="fade-up">Lugar y horarios</h2>
+        <h2 data-aos="fade-up" className="thai-title">Lugar y horarios</h2>
       </div>
       <Container fluid>
         <Row>
@@ -26,7 +26,7 @@ function HomeLocation() {
           <Col md={6}>
 
             <div className="table-responsive" data-aos="fade-down">
-              <table className="table">
+              <table className="table location-table">
                 <thead>
                   <tr>
                     <th></th>
@@ -41,18 +41,18 @@ function HomeLocation() {
                   <tr>
                     <td>8:00 am - 9:00 am</td>
                     <td></td>
-                    <td>✔</td>
+                    <td>🥊</td>
                     <td></td>
-                    <td>✔</td>
+                    <td>🥊</td>
                     <td></td>
                   </tr>
                   <tr>
                     <td>4:00 pm - 5:00 pm</td>
-                    <td>✔</td>
-                    <td>✔</td>
-                    <td>✔</td>
-                    <td>✔</td>
-                    <td>✔</td>
+                    <td>🥊</td>
+                    <td>🥊</td>
+                    <td>🥊</td>
+                    <td>🥊</td>
+                    <td>🥊</td>
                   </tr>
                 </tbody>
               </table>
