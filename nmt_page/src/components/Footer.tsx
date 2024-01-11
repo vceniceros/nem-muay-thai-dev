@@ -14,7 +14,7 @@ function MyFooter() {
           <img src={logo} height="50px" width="50px" alt="" className="me-2" />
         </a>
         <span className="mb-3 mb-md-0">
-          © 2024 nem muay thai
+          © 2024 nen muay thai
         </span>
       </div>
 

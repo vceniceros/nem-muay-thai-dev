@@ -6,6 +6,8 @@ import Router from './Router';
 import NavBar from './components/NavBar'
 import MyFooter from './components/Footer';
 import AOS from 'aos'
+import WhatsappButton from './components/whatsappButton';
+
 
 function App(){
   useEffect(() =>{
@@ -15,6 +17,7 @@ function App(){
       <div className='default'>
           <NavBar/>
         <Router></Router>
+        <WhatsappButton/>
        <MyFooter></MyFooter>
       </div>
   );
