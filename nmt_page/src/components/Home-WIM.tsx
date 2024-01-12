@@ -16,7 +16,7 @@ function HomeWIM() {
               src={patearPaos}
               alt="persona pateando paos"
               className="img-fluid"
-              style={{ maxWidth: "100%", maxHeight: "60vh" }}
+              style={{ maxWidth: "100%", maxHeight: "70vh" }}
             />
           </div>
           <div data-aos="fade-down" className="col-md-8">
