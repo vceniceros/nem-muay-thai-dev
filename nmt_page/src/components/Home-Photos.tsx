@@ -15,7 +15,7 @@ function HomePhotos() {
       <Container className="mt-5">
         <Row xs={1} sm={2} md={3} className="g-4" data-aos="fade-down">
           {fotos.map((foto, index) => (
-            <Col key={index} xs={12} sm={6} md={4}>
+            <Col key={index} xs={12} sm={6} md={4} className="text-center">
               <img
                 src={foto}
                 alt={`Imagen ${index + 1}`}
