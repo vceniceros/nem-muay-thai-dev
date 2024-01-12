@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import slide1 from '../assets/img/slide1-1.jpg';
 import slide2 from '../assets/img/slide1-2.jpg';
+import slide3 from '../assets/img/slide1-3.jpg'
 
 
 function HomeSlider(){
@@ -19,7 +20,7 @@ function HomeSlider(){
         <Carousel.Item>
           <img
             className="d-block w-100 custom-slider"
-            src={slide2}
+            src={slide3}
             alt="nem muay thai slider1-2"
            
           />
@@ -27,7 +28,7 @@ function HomeSlider(){
         <Carousel.Item>
           <img
             className="d-block w-100 custom-slider"
-            src={slide1}
+            src={slide2}
             alt="nem muay thai slider1-3"
           
           />

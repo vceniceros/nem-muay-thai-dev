@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 
-import patearPaos from "../assets/img/patear paos.jpg";
+import queEsMuayThai from "../assets/img/que_es_muay_thai.jpg";
 
 function HomeWIM() {
   return (
@@ -13,7 +13,7 @@ function HomeWIM() {
         <Row>
           <div data-aos="fade-up" className="col-md-4 text-center">
             <img
-              src={patearPaos}
+              src={queEsMuayThai}
               alt="persona pateando paos"
               className="img-fluid"
               style={{ maxWidth: "100%", maxHeight: "70vh" }}
