@@ -1,6 +1,6 @@
-# Proyecto React-Django
+# Proyecto React-Laravel
 
-Este proyecto utilizará una combinación de React y Django. Contará con varias secciones:
+Este proyecto sera una pagina web de un gimnasio que utilizará una combinación de React y Laravel. Contará con varias secciones
 
 ## Carpetas
 - **snake_Case**
@@ -16,8 +16,8 @@ Las funciones y variables se nombrarán en **inglés**.
 
 ## Contenido del Proyecto
 El proyecto incluirá:
-- Un blog
-- Una página de inicio (landing page)
+- Un blog: hecho en laravel y react  
+- Una página de inicio (landing page) hecho en react
 - Un formulario de contacto
 - Y en el futuro, se contempla la adición de una sección de e-commerce.
 
