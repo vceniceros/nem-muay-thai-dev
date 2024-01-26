@@ -81,3 +81,9 @@ img{
   background-color: #4e4e4e;
   color: #05f5ad;
 }
+
+/*modificaciones a admin panel*/
+.admin-panel-container{
+  min-height: 60vh;
+  align-items: center;
+}

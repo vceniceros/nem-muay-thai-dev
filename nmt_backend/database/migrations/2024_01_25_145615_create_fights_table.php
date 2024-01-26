@@ -19,10 +19,10 @@ return new class extends Migration
             $table->integer('weight');
             $table->string('description');
             $table->string('video_link');
-            $table->integer('technicPoints');
-            $table->integer('actitudPoints');
-            $table->integer('contundensPoints');
-            $table->integer('promPoints');
+            $table->unsignedFloat('technicPoints');
+            $table->unsignedFloat('actitudPoints');
+            $table->unsignedFloat('contundensPoints');
+            $table->unsignedFloat('promPoints');
             $table->timestamps();
         });
     }

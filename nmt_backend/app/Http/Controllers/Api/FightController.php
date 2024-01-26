@@ -64,7 +64,13 @@ class FightController extends Controller
         $fight->save();
         return $fight;
     }
-
+    /**
+     * Find the specified resourse by foreing key
+     */
+    public function findByEventId(string $eventId){
+        $fight = Fight::where("events_id", $eventId)->get();
+        return $fight;
+    }
     /**
      * Remove the specified resource from storage.
      */

@@ -32,6 +32,7 @@ Route::controller(FightController::class)->group(function () {
     Route::get('/fights','index');
     Route::post('/fight','store');
     Route::get('/fight/{id}','show');
+    Route::get('/fightEvent/{id}','findByEventId');
     Route::put('/fight/{id}','update');
     Route::delete('/fight/{id}', 'destroy');
 });
