@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html{
+  max-width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img{
+  margin: 0;
+  padding: 0;
+}
+.default{
+  background-color: #242424;
+  color: #05f5ad;
+}
+/*fuente*/
+@font-face{
+  font-family: 'thai';
+  src: url('../fonts/THAILAND.TTF');
+}
+/*nav bar*/
+.custom-navbar {
+  background-color: #242424;
+  color: #05f5ad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  position: fixed;
+}
+.thai-title{
+  font-family: 'thai';
+  color: #c62ac9;
+}
+.custom-navbar .nav-link {
+  font-family: 'thai';
+  color: #05f5ad;
+}
+.custom-footer{
+  background-color: #242424;
+}
+
+/*footer*/
+.custom-footer span{
+    color: #05f5ad;
+}
+.footer-copyright{
+  background-color: #4e4e4e;
+}
+
+.carousel-custom {
+  max-width: 100%; 
+  overflow: hidden; 
+}
+
+.custom-slider{
+  max-width: 100%;
+  overflow: hidden; 
+  height: 80vh;
+}
+
+
+@media screen and (max-width: 720px) {
+    .custom-slider{
+      height: 50vh;
+    }
+}
+
+/*modificaciones a la tabla de location*/
+.location-table{
+  background-color: #4e4e4e;
+  color: #05f5ad;
+}
+
+/*modificaciones a admin panel*/
+.admin-panel-container{
+  min-height: 60vh;
+  align-items: center;
+}

@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["aos"],
     "target": "es5",
     "lib": [
       "dom",
