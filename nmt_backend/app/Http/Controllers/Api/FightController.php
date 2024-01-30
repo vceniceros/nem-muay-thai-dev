@@ -23,7 +23,7 @@ class FightController extends Controller
     public function store(Request $request)
     {
         $fight = New Fight();
-        $fight->eventsId = $request->eventsId;
+        $fight->events_id = $request->events_id;
         $fight->fighter1 = $request->fighter1;
         $fight->fighter2 = $request->fighter2;
         $fight->weight = $request->weight;
@@ -51,7 +51,7 @@ class FightController extends Controller
     public function update(Request $request, string $id)
     {
         $fight = Fight::findOrFail($id);
-        $fight->eventsId = $request->eventsId;
+        $fight->events_id = $request->events_id;
         $fight->fighter1 = $request->fighter1;
         $fight->fighter2 = $request->fighter2;
         $fight->weight = $request->weight;
